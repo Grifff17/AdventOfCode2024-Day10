@@ -22,7 +22,7 @@ def posMult(pos1, pos2):
 def inGrid(pos, grid):
     return pos[0] >= 0 and pos[0] < len(grid) and pos[1] >= 0 and pos[1] < len(grid[0])
 
-#find the xy coordinate of a value in a grid
+#find the xy coordinate of the first isntance of value in a grid
 def findInGrid(grid, target):
     for i, row in enumerate(grid):
             if target in row:
